@@ -1,0 +1,65 @@
+ I am running the project and performing acceptance test through
+PostMant, and also showing working of logs and writing logs working 
+into log file 
+ first with two providers aws and gcp
+only there is one unmatched which I itentionally inserted 
+I am showing in database
+
+now performing with three providers 
+only three properties are matched showing you in database
+only one in azure not matched
+
+now I am running with unit test before showing you test implementations
+of unit and integration tests
+sorry first see logs working I am clearing previous logs and you
+can see new one after compare method called now running project
+in test mode , I have implemented test on services and Api Controller
+class 
+There are six test I am showing you all
+I have inserted docs commented on all code class and methods
+In Next video I am showing you database work and explaing about 
+your concern of getting all properties but I will show you
+only specific path related properties fron canonical and
+providers are fetched First I will show you database architect
+you can see there is canonical service path field in database
+that is foriegn key of canonicalservicetaxonomy because there
+is no attribute of canonical_service_path in properties showing
+you in code now please have look into database structure how
+it gets created same thing in case of UnGeograph table 
+all providers geography table holding Ungeography table primary key
+as foreign key showing you in code
+
+Now I am showing you this programmatically by showing input in console
+after getting properties with specific path for this first 
+have look into database table of CanonicalTaxonomy and AwsProperties
+for example we will add new path and program on getting this path
+will fecth only properties related to that path here you can
+see in options only primary key of canonicaltaxonomyservice 
+showing you in next video part you can see on unmatched in aws
+for this service because this is only in aws properties table
+
+now please have look in console I am writing code for that
+on highligthed line code is for fetching taxonomy service with
+service name and it fetch only relavent properties to the path
+of given service name Running this code in next video and showing
+you output now try with other servicename
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
